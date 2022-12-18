@@ -1,0 +1,70 @@
+.inicio-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(../public/fondo_inicio.png);
+    background-size: cover;
+}
+
+.row-inicio-div{
+    height: 85%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.column-inicio-div{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.title-inicio{
+    text-transform: uppercase;
+    font-size: 44px;
+    text-align: center;
+    width: 69%;
+}
+
+.subtitle-inicio{
+    font-size: 17.8px;
+    color: #555555;
+    width: 58%;
+    text-align: justify;
+}
+
+.button-download-inicio{
+    background-color: #ff1616;
+    color: #ffffff;
+    border-radius: 60px;
+    padding: 10px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button-correo-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #555555;
+    gap: 10px;
+}
+
+.fa-envelope-o{
+    font-size: 20px;
+    color:#ff1616;
+}
+
+.img-phone-inicio{
+    width: 30vw;
+}
