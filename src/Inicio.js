@@ -6,7 +6,7 @@ const Inicio = () => {
         <section id="inicio" className='inicio-div'>
             <div className="row-inicio-div">
                 <div className='column-inicio-div'>
-                <h2 className="title-inicio">¿tienes un tfg? usa tfg tinder para un mejor tutor</h2>
+                <h2 className="title-inicio">¿TIENES UN TFG? CON ESTA APP PODRÁS OBTENER UN BUEN TUTOR Y UNA EMPRESA INTERESADA</h2>
                 <p className="subtitle-inicio">Una aplicación ideal para enlazar profesores, estudiantes y empresas con el fin de potenciar los TFG. </p>
                 <a href="#inicio" className="button-download-inicio">Descargar</a>
                 <a href="mailto:tfginder@gmail.com" className="button-correo-inicio">
