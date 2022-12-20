@@ -1,4 +1,5 @@
 import './App.css';
+import Beneficts from './Beneficts';
 import Caracteristicas from './Caracteristicas';
 import Header from './Header';
 import Inicio from './Inicio';
@@ -14,6 +15,7 @@ function App() {
       {/* <Caracteristicas/> */}
       <Problematica/>
       <SolutionPropose/>
+      <Beneficts/>
       <MiTFG/>
     </div>
   );

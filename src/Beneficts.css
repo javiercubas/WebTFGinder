@@ -1,0 +1,65 @@
+.beneficts-div {
+    width: 100%;
+    height: 100vh;
+    background-color: #262626;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_benefict {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 60px;
+    color: #D50F5A;
+    height: 10%;
+    margin: 0;
+}
+
+.benefictSection {
+    width: 100%;
+    height: 90%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.benefict{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.text{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;    
+    margin: 0;
+}
