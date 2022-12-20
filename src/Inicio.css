@@ -68,3 +68,36 @@
 .img-phone-inicio{
     width: 30vw;
 }
+
+@media only screen and (max-width:600px){
+    .inicio-div{
+        height:120vh;
+    }
+    .row-inicio-div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column-inicio-div{
+        width: 90%;
+    }
+
+    .title-inicio{
+        width: 100%;
+        text-align: center;
+    }
+
+    .subtitle-inicio{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .button-download-inicio{
+        
+    }
+
+    .img-phone-inicio{
+        width: 80vw;
+    }
+
+}
