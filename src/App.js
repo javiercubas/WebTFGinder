@@ -2,6 +2,7 @@ import './App.css';
 import Caracteristicas from './Caracteristicas';
 import Header from './Header';
 import Inicio from './Inicio';
+import MiTFG from './MiTFG';
 import Problematica from './Problematica';
 import SolutionPropose from './SolutionPropose';
 
@@ -13,6 +14,7 @@ function App() {
       {/* <Caracteristicas/> */}
       <Problematica/>
       <SolutionPropose/>
+      <MiTFG/>
     </div>
   );
 }

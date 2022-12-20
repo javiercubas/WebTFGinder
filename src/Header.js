@@ -10,6 +10,7 @@ const Header = () => {
             </a>
             <div className="menu-div">
                 <a href='#inicio' className="menu-item">Inicio</a>
+                <a href='#problematica' className="menu-item">Problematica</a>
                 <a href='#caracteristicas' className="menu-item">Características</a>
                 <a href='/' className="menu-item">Preguntas Frecuentes</a>
                 <a href='/' className="menu-item">Mi TFG</a>

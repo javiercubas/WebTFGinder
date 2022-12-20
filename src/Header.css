@@ -4,8 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    background-color: #ffffff;
-    position: fixed;
+    position: absolute;
 }
 
 .title-div{
@@ -25,10 +24,6 @@
 .title-logo{
     font-size: 20px;
     font-weight: 600;
-}
-
-a:visited{
-    color: #000000;
 }
 
 .menu-div{
