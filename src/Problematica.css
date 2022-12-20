@@ -1,7 +1,7 @@
 .problematica-div {
     width: 100%;
     height: 100vh;
-    background-color: #000000;
+    background-color: #262626;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,7 +10,7 @@
 
 .section_problem {
     width: 90%;
-    height: 80%;
+    height: 95%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,13 +20,12 @@
     font-weight: 900;
     font-size: 60px;
     color: #D50F5A;
+    height: 10%;
 }
 
 .content_section {
-
     width: 100%;
-    height: 100%;
-
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -36,11 +35,9 @@
 .info2{
     height: 100%;
     width: 100%;
-
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(2, 2fr);
-
+    grid-template-rows: repeat(2, 0.5fr) 4fr;
     justify-items: center;
 }
 
@@ -53,9 +50,9 @@
 }
 
 .img_info{
-    width: 10w;
-    height: 10h;
-    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .text_controll{
@@ -80,6 +77,83 @@
     text-align: center;    
 }
 
+@media only screen and (max-width: 600px){
+    .problematica-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .section_problem {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title {
+        font-weight: 900;
+        font-size: 40px;
+        color: #D50F5A;
+        height: 10%;
+    }
+
+    .content_section {
+        width: 100%;
+        height: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 100px;
+    }
+
+    .info2{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr) 0.5fr;
+        justify-items: center;
+    }
+
+    .icon_info{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_info{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .text_controll{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title_info {
+        font-weight: 700;
+        font-size: 30px;
+        color: #D50F5A;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;    
+    }
+
+}
 
 
 
