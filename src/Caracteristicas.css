@@ -45,3 +45,27 @@
     text-align: justify;
     font-size: 18px;
 }
+
+@media only screen and (max-width:600px){
+    .caracteristicas-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column-caracteristicas-div{
+        width: 90%;
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+
+    .row-caracteristicas-div{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .text-beneficios{
+        width: 90%;
+    }
+}
