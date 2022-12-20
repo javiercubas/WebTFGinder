@@ -3,6 +3,7 @@ import Caracteristicas from './Caracteristicas';
 import Header from './Header';
 import Inicio from './Inicio';
 import Problematica from './Problematica';
+import SolutionPropose from './SolutionPropose';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Inicio/>
       {/* <Caracteristicas/> */}
       <Problematica/>
+      <SolutionPropose/>
     </div>
   );
 }

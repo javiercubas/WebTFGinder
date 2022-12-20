@@ -25,7 +25,7 @@ const Problematica = () => {
                     </div>
                     <div className="info2">
                         <div className="icon_info">
-                        <img src="./" className="img_info"/>
+                            <img src='' className="img_info"/>
                         </div>
                         <div className="text_controll">
                             <h3 className="title_info">LENTITUD DEL PROCESO DE UNIÓN PROFE ALUMNO</h3>
