@@ -42,7 +42,6 @@ const SolutionPropose = () => {
                         los estudiantes. En caso de que les interese alguno, podrán contactar con el estudiante y profesor
                         para poder realizar el TFG en su empresa y potenciarlo en caso de una gran idea.
                     </p>
-
                 </div>
             </div>
         </section >
