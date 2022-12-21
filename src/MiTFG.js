@@ -5,7 +5,10 @@ import './MiTFG.css'
 const MiTFG = () => {
     return (
         <div className="mitfg-div">
-            <img src='assets/miTFG.png' className='img-mitfg' alt='miTFG' />
+            <div className="logo-mitfg-div">
+                <img src='assets/miTFG.png' className='img-mitfg' alt='miTFG' />
+                <h2 className="title-mitfg-div">MI TFG</h2>
+            </div>
             <div className="column-mitfg-div">
                 <div className="row-mitfg-div">
                     <h3 className="index-mitfg">01</h3>
