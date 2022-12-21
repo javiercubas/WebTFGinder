@@ -4,6 +4,7 @@ import Caracteristicas from './Caracteristicas';
 import Header from './Header';
 import Inicio from './Inicio';
 import MiTFG from './MiTFG';
+import PreguntasFrecuentes from './PreguntasFrecuentes';
 import Problematica from './Problematica';
 import SolutionPropose from './SolutionPropose';
 
@@ -17,6 +18,7 @@ function App() {
       <SolutionPropose/>
       <Beneficts/>
       <MiTFG/>
+      <PreguntasFrecuentes/>
     </div>
   );
 }
