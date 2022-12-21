@@ -36,7 +36,7 @@ const SolutionPropose = () => {
                         <p className="textP">Los estudiantes podrán entrar a la aplicación
                             cuando la universidad les de permiso para comenzar a buscar un tutor. Estos
                             indicarán 1 o 2 temas que le gustaría realizar y le aparecerán una serie de
-                            profesores que tenga un tema relacionado con el suyo. </p>
+                            profesores que tengan un tema relacionado con el suyo. </p>
                     </div>
                     <div className="text">
                         <p className="textP">
