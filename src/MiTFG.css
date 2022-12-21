@@ -109,9 +109,10 @@
     }
     .title-mitfg {
         font-size: 18px;
+        text-align: center;
     }
     .subtitle-mitfg {
         font-size: 16px;
-        text-align: left;
+        text-align: center;
     }
 }
