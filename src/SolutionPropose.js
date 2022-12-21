@@ -3,7 +3,7 @@ import "./SolutionPropose.css";
 
 const SolutionPropose = () => {
     return (
-        <section id="solution" className="solution-div">
+        <section id="solucion" className="solution-div">
             <div className="solution-section">
                 <div className="esquema">
                     <div className="iconME">
@@ -11,7 +11,7 @@ const SolutionPropose = () => {
                     </div>
                     <h3 className="textInfo textTu">TÚ</h3>
                     <div className="row1">
-
+                        <img src="assets/row1.png" alt="Arrow" className="img-arrow" />
                     </div>
                     <h3 className="textInfo textTeacher">TUTOR</h3>
 
@@ -19,7 +19,7 @@ const SolutionPropose = () => {
                         <img src="assets/teacher.png" alt="Teacher" className="img-icons img-teacher" />
                     </div>
                     <div className="row2">
-
+                        <img src="assets/row2.png" alt="Arrow" className="img-arrow" />
                     </div>
                     <div className="iconEmpresa">
                         <img src="assets/empresa.png" alt="Empresa" className="img-icons img-empresa" />

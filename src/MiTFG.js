@@ -4,7 +4,7 @@ import './MiTFG.css'
 
 const MiTFG = () => {
     return (
-        <div className="mitfg-div">
+        <section id='mi-tfg' className="mitfg-div">
             <div className="logo-mitfg-div">
                 <img src='assets/miTFG.png' className='img-mitfg' alt='miTFG' />
                 <h2 className="title-mitfg-div">MI TFG</h2>
@@ -32,7 +32,7 @@ const MiTFG = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
