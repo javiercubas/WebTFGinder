@@ -22,7 +22,7 @@
 
 .text-caracteristicas{
     width: 80%;
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
 }
 
@@ -42,7 +42,7 @@
 
 .text-beneficios{
     width: 50%;
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
 }
 

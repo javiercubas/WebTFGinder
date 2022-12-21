@@ -29,15 +29,16 @@
 .title-inicio{
     text-transform: uppercase;
     font-size: 44px;
+    font-weight: 900;
     text-align: center;
-    width: 69%;
+    width: 72%;
 }
 
 .subtitle-inicio{
     font-size: 17.8px;
+    font-weight: 700;
     color: #555555;
     width: 58%;
-    text-align: justify;
 }
 
 .button-download-inicio{
@@ -49,6 +50,7 @@
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 20px;
+    text-align: center;
 }
 
 .button-correo-inicio{
@@ -71,7 +73,8 @@
 
 @media only screen and (max-width:600px){
     .inicio-div{
-        height:120vh;
+        height:125vh;
+        justify-content: flex-start;
     }
     .row-inicio-div{
         flex-direction: column;
@@ -80,20 +83,28 @@
 
     .column-inicio-div{
         width: 90%;
+        align-items: initial;
     }
 
     .title-inicio{
         width: 100%;
         text-align: center;
+        margin-top: 100px;
     }
 
     .subtitle-inicio{
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }
 
     .img-phone-inicio{
         width: 80vw;
+    }
+
+    .button-download-inicio{
+        padding: 20px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
 }

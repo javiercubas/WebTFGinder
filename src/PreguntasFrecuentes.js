@@ -3,7 +3,7 @@ import "./PreguntasFrecuentes.css";
 
 const PreguntasFrecuentes = () => {
     return(
-        <section id="preguntasFrecuentes" className="preguntas-div">
+        <section id="preguntas-frecuentes" className="preguntas-div">
             <div className="preguntas-section">
                 <h2 className="title">PREGUNTAS FRECUENTES</h2>
                 <div className="questions-grid">
